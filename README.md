@@ -1,67 +1,56 @@
- 
-``` Elastic Stack Overview (ELK)
- 
+Setting up Prerequisites
 
-Overview:
+            Elasticsearch: Introduction 
+            Elasticsearch: Installation and Configuration
+            elasticdump
+            Brief Introduction to Kibana
+            Nested Objects - Limitation to Kibana
 
-What and Why
-Terminology: Documents, Index, Shards, Node, Cluster, Scale Up/Out
-Operate: Configuring & Deploying
+Setting up Kibana
 
-Configuring Elasticsearch
-Deploying Elasticsearch
-Lab
-Node: Discovery, Types, and Cluster State
+            Kibana: Install and Configure
+            Configuring Elasticsearch and connecting Kibana
+                    Dynamic Mapping
+                    Limitations
+            Tribe Nodes
 
-Distributed Model and Discovery
-Master, Data, Client, and Tribe Nodes
-Master Election and Minimum Master Nodes
-Cluster State
-Shard Allocation
-Backup: Snapshot and Restore
+Using Kibana
 
-High Availability vs. Backup
-Repository, Snapshot, and Restore
-Internals
-Production Monitoring
+            Indices and Filters
+            Discover Interface
+                    Time Filter
+                    Toolbar and Searchbar
+                    Field Lists
+                    Document Data and Context - Add/View/Edit/Delete
+            Visualization Interface
+            Aggregations
+                    Bucket Aggregations - Date Histogram, Date Range, Range, Histogram, Terms and Filters
+                    Metric Aggregations - Count, Sum, Average, Min, Max, Percentile, Percentile Ranks and Unique
+            Create Visualization
+            Chart, Line, Area
+            Data Table
+            Metrics
+            Other Visualization Types
 
-Alerting Best Practices
-JVM
-Query Performance
-Thread Pools
-Diagnosing Problems
-Production Operational Best Practices
+            Dashboard Interface: Building, Merging, Loading and Sharing
+            Graph: Configure, Troubleshoot and Limitations
 
-Memory
-Networking
-Disk
-Security
-Cluster Restart (Rolling and Full)
-Logstash
+Kibana: Dev Console
 
-What and Why
-Configuration
-Inputs, Filters, and Outputs
-Installation and configuration
-Backup and restore
-Cluster and availability nuances
-Best practices
-Kibana
+            Overview
+            Shortcuts: Brief
+            Settings and Configuring
 
-What and Why
-Configuration Settings
-Time Picker, Search, and Filters
-Kibana Discover, Visualization, and Dashboard Interfaces
-Installation and configuration
-Backup and restore
-Cluster and availability nuances
-Best practices
-Filebeat
+Kibana in Production
 
-Logs and problems
-Filebeat architecture
-Installation and configuration
-Backup and restore
-Cluster and availability nuances
-Best practices
-Summary and Conclus
+            SSL encryption
+            Load Balancing using Elasticsearch Nodes
+
+Management
+            Managing Fields and Formatters
+            Saved Searches, Visualizationad and Dashboards
+            Apache/nginx proxy for security
+
+Plugins
+            Install/Update/Disable/Remove Plugins
+            Plugins Manager
