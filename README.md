@@ -24,8 +24,10 @@ Using Kibana
                     Document Data and Context - Add/View/Edit/Delete
             Visualization Interface
             Aggregations
-                    Bucket Aggregations - Date Histogram, Date Range, Range, Histogram, Terms and Filters
-                    Metric Aggregations - Count, Sum, Average, Min, Max, Percentile, Percentile Ranks and Unique
+                    Bucket Aggregations - Date Histogram, Date Range, Range,
+                                          Histogram, Terms and Filters
+                    Metric Aggregations - Count, Sum, Average, Min, Max, Percentile, 
+                                          Percentile Ranks and Unique
             Create Visualization
             Chart, Line, Area
             Data Table
