@@ -49,10 +49,12 @@ Kibana in Production
             Load Balancing using Elasticsearch Nodes
 
 Management
+
             Managing Fields and Formatters
             Saved Searches, Visualizationad and Dashboards
             Apache/nginx proxy for security
 
 Plugins
+
             Install/Update/Disable/Remove Plugins
             Plugins Manager
