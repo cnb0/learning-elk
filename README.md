@@ -24,8 +24,10 @@ Using Kibana
                     Document Data and Context - Add/View/Edit/Delete
             Visualization Interface
             Aggregations
-                    Bucket Aggregations - Date Histogram, Date Range, Range, Histogram, Terms and Filters
-                    Metric Aggregations - Count, Sum, Average, Min, Max, Percentile, Percentile Ranks and Unique
+                    Bucket Aggregations - Date Histogram, Date Range, Range,
+                                          Histogram, Terms and Filters
+                    Metric Aggregations - Count, Sum, Average, Min, Max, Percentile, 
+                                          Percentile Ranks and Unique
             Create Visualization
             Chart, Line, Area
             Data Table
@@ -47,10 +49,12 @@ Kibana in Production
             Load Balancing using Elasticsearch Nodes
 
 Management
+
             Managing Fields and Formatters
             Saved Searches, Visualizationad and Dashboards
             Apache/nginx proxy for security
 
 Plugins
+
             Install/Update/Disable/Remove Plugins
             Plugins Manager
