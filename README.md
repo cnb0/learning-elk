@@ -1,3 +1,5 @@
+## [Kibana Intro](https://www.elastic.co/guide/en/kibana/current/introduction.html)
+
 Setting up Prerequisites
 
             Elasticsearch: Introduction 
@@ -58,3 +60,5 @@ Plugins
 
             Install/Update/Disable/Remove Plugins
             Plugins Manager
+
+[Kibana Intro](https://www.elastic.co/guide/en/kibana/current/introduction.html)
