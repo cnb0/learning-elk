@@ -1,0 +1,5 @@
+server.host: "workshop-kibana"
+
+elasticsearch:
+  hosts: http://workshop-elasticsearch:9200/
+

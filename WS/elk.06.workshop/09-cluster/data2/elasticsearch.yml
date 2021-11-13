@@ -1,0 +1,13 @@
+node.name: data2
+cluster.name: elasticsearch
+node.master: false
+node.data: true
+node.ingest: false
+search.remote.connect: false
+cluster.initial_master_nodes: localhost
+
+bootstrap.memory_lock: true
+
+path:
+    data: $ES_PATH/data2
+    logs: $ES_PATH/data2

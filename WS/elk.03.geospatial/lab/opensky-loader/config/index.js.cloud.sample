@@ -1,0 +1,16 @@
+module.exports = {
+    es_config: {
+        cloud:{
+            id: 'your-cloud-id'
+        },
+        auth: {
+            username: 'your-elastic-user',
+            password: 'your-elastic-password'
+          }
+    },
+    /* optional pipeline for ingesting processing
+        pipeline_name: 'my_pipeline'
+    */
+    index_name: 'flight_tracking',
+    sleep_seconds: 60
+};

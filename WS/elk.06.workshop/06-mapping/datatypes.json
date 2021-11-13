@@ -1,0 +1,75 @@
+##### Array vs Object vs Nested #####
+
+PUT sample/_doc/1
+{
+  "name": "somkiat",
+  "friends": [
+    "f1",
+    "f2",
+    "f3"
+  ],
+  "addresses": [
+    {
+      "name": "address 1",
+      "detail": "bangkok"
+    },
+    {
+      "name": "address 2",
+      "detail": "korat"
+    }
+  ]
+}
+
+DELETE sample
+
+GET sample
+
+PUT sample
+{
+  "mappings": {
+    "properties": {
+      "addresses": {
+        "properties": {
+          "detail": {
+            "type": "text",
+            "fields": {
+              "keyword": {
+                "type": "keyword",
+                "ignore_above": 256
+              }
+            }
+          },
+          "name": {
+            "type": "text",
+            "fields": {
+              "keyword": {
+                "type": "keyword",
+                "ignore_above": 256
+              }
+            }
+          }
+        }
+      },
+      "friends": {
+        "type": "text",
+        "fields": {
+          "keyword": {
+            "type": "keyword",
+            "ignore_above": 256
+          }
+        }
+      },
+      "name": {
+        "type": "text",
+        "fields": {
+          "keyword": {
+            "type": "keyword",
+            "ignore_above": 256
+          }
+        }
+      }
+    }
+  }
+}
+
+GET sample
