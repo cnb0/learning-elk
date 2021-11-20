@@ -15,9 +15,11 @@ Part 2.
     Chapter 10. Improving performance
     Chapter 11. Administering your cluster
        
-Appendix A. Working With Geospatial Data
-Appendix B. Plugins
-Appendix C. Highlighting
-Appendix D. Elasticsearch Monitoring Plugins
-Appendix E. Turning Search Upside Down With The Percolator
-Appendix F. Using Suggesters For Autocomplete And Did-You-Mean Functionality
+Appendix 
+
+         A. Working With Geospatial Data
+         B. Plugins
+         C. Highlighting
+         D. Elasticsearch Monitoring Plugins
+         E. Turning Search Upside Down With The Percolator
+         F. Using Suggesters For Autocomplete And Did-You-Mean Functionality
