@@ -1,5 +1,7 @@
 Section 1: Fundamentals And Core APIs
+
 Overview Of Elasticsearch 7
+
             Preparing your environment
             Running Elasticsearch
             Basic Elasticsearch configuration
