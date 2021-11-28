@@ -1,0 +1,1 @@
+### [ELK troubleshooting](https://dev.to/lisahjung/beginner-s-guide-troubleshooting-beginner-level-elasticsearch-errors-43b8)
