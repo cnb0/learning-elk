@@ -152,6 +152,7 @@ Modeling Your Data In The Real World
             Practical considerations
 
 Aggregation Frameworks
+
             ETF historical data preparation
             Aggregation query syntax
             Matrix aggregations
